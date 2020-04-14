@@ -52,3 +52,10 @@ void Student::setAll(unsigned long int ID, string Fname, string Lname, string Ad
 	gpa = GPA;
 	CourseLoadHours = CLH;
 }
+
+void Student::Student::ReadData() {
+	CommunityMember::ReadData();
+	cout << "enter CourseLoadHours: ";
+	cin >> CourseLoadHours;
+	cin >> gpa;
+}

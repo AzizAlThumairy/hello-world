@@ -32,3 +32,9 @@ void Administrator::setAll(unsigned long int ID, string Fname, string Lname, str
 	Faculty::setAll(ID, Fname, Lname, Address, Cell, Sal, Spec, AC);
 	Position = P;
 }
+
+void Administrator::Administrator::ReadData() {
+	Faculty::ReadData();
+	cout << "enter position : ";
+	cin >> Position;
+}

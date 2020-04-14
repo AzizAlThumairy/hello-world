@@ -56,3 +56,11 @@ void Faculty::print()
 		<< "AcademicRank: " << AcademicRank << endl;
 
 }
+
+void Faculty::Faculty::ReadData() {
+	Employee::ReadData();
+	cout << "enter Speciality: ";
+	cin >> specility;
+	cout << "enter AcademicRank: ";
+	cin >> AcademicRank;
+}

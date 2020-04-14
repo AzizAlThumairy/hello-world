@@ -17,6 +17,7 @@ public:
 
 	void setAll(unsigned long int, string, string, string, unsigned long int,
 		unsigned int, string);
+	void ReadData();
 private:
 	unsigned int YearOfGraduation;
 	string CurrentJob;

@@ -41,3 +41,10 @@ void Staff::print()
 	Employee::print();
 	cout << "Department: " << Department << endl;
 }
+
+void Staff::Staff::ReadData() {
+	Employee::ReadData();
+	cout << "enter Department: ";
+	cin >> Department;
+}
+

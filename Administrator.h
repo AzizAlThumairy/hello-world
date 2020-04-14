@@ -20,6 +20,7 @@ public:
 		double,
 		string, string,
 		string);
+	void ReadData();
 protected:
 	string Position;
 };

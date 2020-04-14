@@ -20,7 +20,7 @@ public:
 		double,
 		string, string,
 		unsigned int);
-
+	void ReadData();
 protected:
 	unsigned int HoursPerWeek;
 };

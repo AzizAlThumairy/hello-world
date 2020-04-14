@@ -16,7 +16,7 @@ public:
 		double, string);
 
 	void print();
-
+	void ReadData();
 private:
 	string Department;
 };

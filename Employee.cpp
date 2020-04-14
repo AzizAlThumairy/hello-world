@@ -47,3 +47,8 @@ void Employee::Employee::setAll(unsigned long int ID, string Fname, string Lname
 	
 	salary = Sal;
 }
+
+void Employee::Employee::ReadData() {
+	CommunityMember::ReadData();
+	cout << "enter Salary: ";
+	cin >> salary;}

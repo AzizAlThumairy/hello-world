@@ -49,4 +49,10 @@ void Alumnus::setAll(unsigned long int ID, string Fname, string Lname, string Ad
 	CurrentJob = CJ;
 }
 
-
+void Alumnus::Alumnus::ReadData() {
+	CommunityMember::ReadData();
+	cout << "enter Year of graduation : ";
+	cin >> YearOfGraduation;
+	cout << "enter Current job : ";
+	cin >> CurrentJob;
+}

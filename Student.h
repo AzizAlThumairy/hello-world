@@ -19,6 +19,8 @@ public:
 
 	void setAll(unsigned long int, string, string, string, unsigned long int
 	,float,unsigned int);
+
+	void ReadData();
 protected:
 	float gpa;
 	unsigned int CourseLoadHours;

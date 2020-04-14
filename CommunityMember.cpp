@@ -84,14 +84,14 @@ void CommunityMember::print()
 
 void CommunityMember::ReadData()
 {
-	cout << "enter ID: " << id << endl;
+	cout << "enter ID: ";
 	cin >> id;
-	setID(id);
-cout	<< "First: " << fname << endl;
-cin >> fn;
-	cout<< "Last: " << lname << endl;
-
-	cout<< "Address: " << address << endl;
-
-		cout<< "Cell: " << cell << endl;
+	cout << "enter Frist Name: ";
+	cin >> fname;
+	cout << "enter last name: ";
+	cin >> lname;
+	cout << "enter address: ";
+	cin >> address;
+	cout << "enter cell: ";
+	cin >> cell;
 }

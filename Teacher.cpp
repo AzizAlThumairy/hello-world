@@ -32,3 +32,9 @@ void Teacher::setAll(unsigned long int ID, string Fname, string Lname, string Ad
 	Faculty::setAll(ID, Fname, Lname, Address, Cell, Sal, Spec, AC);
 	HoursPerWeek = HPW;
 }
+
+void Teacher::Teacher::ReadData() {
+	Faculty::ReadData();
+	cout << "enter Hours per Week: ";
+	cin >> HoursPerWeek;
+}

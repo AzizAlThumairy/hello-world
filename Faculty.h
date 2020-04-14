@@ -21,6 +21,7 @@ public:
 		string,string);
 
 	void print();
+	void ReadData();
 
 protected:
 	string specility,AcademicRank;

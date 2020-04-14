@@ -21,7 +21,7 @@ public:
 	void print();
 	void setAll(unsigned long int, string, string, string, unsigned long int,
 		double);
-
+	void ReadData();
 protected:
 	double salary;
 	
